@@ -1,0 +1,9 @@
+# Core dependencies for the local RAG memory engine.
+# sqlite3 and pathlib are part of the Python 3.11+ standard library.
+
+sentence-transformers>=2.7.0
+faiss-cpu>=1.8.0
+numpy>=1.26
+
+# Optional, for running the test suite:
+# pytest>=8.0
